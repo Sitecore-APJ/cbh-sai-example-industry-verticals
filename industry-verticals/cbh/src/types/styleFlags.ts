@@ -19,3 +19,8 @@ export enum HeroBannerStyles {
   WithPlaceholder = 'with-placeholder',
   ScreenLayer = 'screen-layer',
 }
+
+export enum HeroCardFlags {
+  HideTopTriangle = 'hide-hero-card-top-triangle',
+  HideBottomTriangle = 'hide-hero-card-bottom-triangle',
+}

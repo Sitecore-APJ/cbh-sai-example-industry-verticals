@@ -296,6 +296,51 @@
         ]
       },
       {
+        "name": "sites-cbh",
+        "path": "/sitecore/content/industry-verticals/cbh",
+        "rules": [
+          {
+            "path": "/Home",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Media",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateAndUpdate"
+          },
+          {
+            "path": "/Data",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Dictionary",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Presentation",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Settings/Site Grouping",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Settings",
+            "scope": "ItemAndChildren",
+            "allowedPushOperations": "CreateAndUpdate"
+          },
+          {
+            "path": "*",
+            "scope": "Ignored"
+          }
+        ]
+      },
+      {
         "name": "CustomScripts",
         "path": "/sitecore/system/Modules/PowerShell/Script Library/Custom Tools",
         "scope": "ItemAndDescendants"

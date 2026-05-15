@@ -1,0 +1,31 @@
+---
+ID: "f05ea3f1-7ee0-41a2-a1b2-3284675c4538"
+Parent: "12c5f979-71d2-403d-bb4e-42c72e05acc0"
+Template: "12c5f979-71d2-403d-bb4e-42c72e05acc0"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Page Content/Hero Card/__Standard Values"
+SharedFields:
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260215T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b2c3d4e5-f6a7-4890-b123-456789012345"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260215T120000Z

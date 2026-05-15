@@ -1,0 +1,27 @@
+---
+ID: "457ae18d-f88b-4a58-85fa-a1b1bd1c8f58"
+Parent: "27a3a7c8-f59c-4521-a760-213659037a43"
+Template: "8357f958-9aaa-46db-8898-36448a96356f"
+Path: "/sitecore/content/industry-verticals/cbh/Settings/Site Grouping"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260215T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0cd2e3f4-a5b6-4901-7234-567890123456"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260215T120000Z

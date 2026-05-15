@@ -1,0 +1,39 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Project.CBH-Content",
+  "references": ["Project.IndustryVerticals"],
+  "items": {
+    "includes": [
+      {
+        "name": "site-home",
+        "path": "/sitecore/content/industry-verticals/cbh/Home",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateAndUpdate"
+      },
+      {
+        "name": "site-media",
+        "path": "/sitecore/content/industry-verticals/cbh/Media",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateAndUpdate"
+      },
+      {
+        "name": "site-data",
+        "path": "/sitecore/content/industry-verticals/cbh/Data",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateAndUpdate"
+      },
+      {
+        "name": "site-dictionary",
+        "path": "/sitecore/content/industry-verticals/cbh/Dictionary",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateAndUpdate"
+      },
+      {
+        "name": "site-presentation",
+        "path": "/sitecore/content/industry-verticals/cbh/Presentation",
+        "scope": "DescendantsOnly",
+        "allowedPushOperations": "CreateAndUpdate"
+      }
+    ]
+  }
+}

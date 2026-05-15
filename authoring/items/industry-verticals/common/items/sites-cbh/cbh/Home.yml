@@ -1,0 +1,45 @@
+---
+ID: "14488080-298a-4740-b076-6393ef93d084"
+Parent: "4ef0ace8-accf-4e4e-a219-3b96a5f856b9"
+Template: "98e60957-0783-4a9a-85cc-77dad30e9711"
+Path: "/sitecore/content/industry-verticals/cbh/Home"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {98E60957-0783-4A9A-85CC-77DAD30E9711}
+    {F6E44A9E-074A-4865-987E-0C2DC00B7AF5}
+    {4D2B49E6-1130-444A-B22C-5C7E25D01B56}
+    {412BF445-B1A6-4AFF-8054-0B21A1FEBC47}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"></d></r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260215T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2ef4a5b6-c7d8-4123-9456-789012345678"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260215T120000Z
+    - ID: "56776edf-7b1c-4f63-b77a-bb40df4541ab"
+      Hint: Title
+      Value: Home

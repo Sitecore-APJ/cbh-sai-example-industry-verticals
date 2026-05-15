@@ -1,0 +1,27 @@
+---
+ID: "10831ce6-7b67-420a-9d46-806fe134292e"
+Parent: "e00b34c9-5c0c-4fa2-9427-d4890e8fd184"
+Template: "e00b34c9-5c0c-4fa2-9427-d4890e8fd184"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Page Content/Hero Card/Rendering Parameters/Hero Card Parameters/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260215T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6df2c3d4-e5f6-4901-6234-567890123456"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260215T120000Z
