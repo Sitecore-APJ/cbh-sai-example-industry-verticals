@@ -23,3 +23,18 @@
 /* responsive classes are in base/tailwind-bootstrap-grid */
 @source inline("col-{1..12}");
 @source inline("offset-{1..12}");
+
+.hero-promo {
+  /* height: 600px; */
+  clip-path: polygon(50% 20px, 51.5% 0, 100% 0, 100% 100%, 0 100%, 0 0, 48.5% 0);
+  /* border: 10px solid red;
+  /* font-size: 40px; */
+}
+
+.hide-triangle-clip {
+  clip-path: none;
+}
+
+.hero-promo.first {
+  margin-top: 0px;
+}

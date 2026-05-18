@@ -21,6 +21,5 @@ export enum HeroBannerStyles {
 }
 
 export enum HeroCardFlags {
-  HideTopTriangle = 'hide-hero-card-top-triangle',
-  HideBottomTriangle = 'hide-hero-card-bottom-triangle',
+  HideTopTriangle = 'hideTopTriangle',
 }

@@ -1,169 +1,187 @@
-import React, { JSX } from 'react';
 import {
-  NextImage as ContentSdkImage,
-  RichText as ContentSdkRichText,
   Field,
   ImageField,
-  Link,
   LinkField,
-  RichTextField,
-  Text,
+  NextImage as ContentSdkImage,
+  Text as ContentSdkText,
+  RichText as ContentSdkRichText,
   useSitecore,
+  Link,
 } from '@sitecore-content-sdk/nextjs';
-import { ComponentProps } from 'lib/component-props';
-import clsx from 'clsx';
-import { HeroCardFlags } from '@/types/styleFlags';
+
+import { ComponentProps } from '@/lib/component-props';
 
 interface Fields {
   BackgroundImage: ImageField;
-  SecondaryImage: ImageField;
+  Video: ImageField;
+  PromoImage: ImageField;
   Title: Field<string>;
-  Text: RichTextField;
-  Link: LinkField;
+  Text: Field<string>;
+  CtaLink: LinkField;
 }
 
-export type HeroCardProps = ComponentProps & {
-  params: { [key: string]: string };
+export interface HeroCardProps extends ComponentProps {
   fields: Fields;
-};
+}
 
-const Triangles = ({ styles }: { styles?: string }) => {
-  const hideTop = styles?.includes(HeroCardFlags.HideTopTriangle);
-  const hideBottom = styles?.includes(HeroCardFlags.HideBottomTriangle);
-  return (
-    <>
-      {!hideTop && (
-        <div
-          className="bg-accent pointer-events-none absolute top-0 left-0 z-20 h-[min(18vw,8rem)] w-[min(55vw,28rem)]"
-          style={{ clipPath: 'polygon(0 0, 100% 0, 0 100%)' }}
-          aria-hidden
-        />
-      )}
-      {!hideBottom && (
-        <div
-          className="bg-accent pointer-events-none absolute right-0 bottom-0 z-20 h-[min(18vw,8rem)] w-[min(55vw,28rem)]"
-          style={{ clipPath: 'polygon(100% 0, 100% 100%, 0 100%)' }}
-          aria-hidden
-        />
-      )}
-    </>
-  );
-};
-
-const HeroCardBody = (props: HeroCardProps) => {
+const HeroCardCommon = ({
+  params,
+  fields,
+  children,
+}: HeroCardProps & {
+  children: React.ReactNode;
+}) => {
   const { page } = useSitecore();
-  const { isEditing } = page.mode;
+  const { styles, RenderingIdentifier: id } = params;
+  const isPageEditing = page.mode.isEditing;
+  // const hideTopTriangle = styles?.includes(HeroCardFlags.HideTopTriangle);
+
+  if (!fields) {
+    return isPageEditing ? (
+      <div className={`component hero-banner ${styles}`} id={id}>
+        [HERO BANNER]
+      </div>
+    ) : (
+      <></>
+    );
+  }
 
   return (
-    <div className="space-y-5">
-      {(props.fields.Title?.value || isEditing) && (
-        <h2 className="font-heading text-3xl font-bold tracking-tight md:text-4xl">
-          <Text field={props.fields.Title} />
-        </h2>
-      )}
-      {(props.fields.Text?.value || isEditing) && (
-        <div className="text-foreground-light [&_a]:text-background max-w-prose text-lg [&_a]:underline">
-          <ContentSdkRichText field={props.fields.Text} />
-        </div>
-      )}
-      {(props.fields.Link?.value?.href || isEditing) && (
-        <Link field={props.fields.Link} className="arrow-btn" />
-      )}
+    <div
+      className={`component hero-promo ${styles} items-cente bg-red relative mt-[-20px] flex`}
+      id={id}
+    >
+      {/* Background Media */}
+
+      <div className="absolute inset-0 z-0">
+        {!isPageEditing && fields?.Video?.value?.src ? (
+          <video
+            className="h-full w-full object-cover"
+            autoPlay
+            muted
+            loop
+            playsInline
+            poster={fields.BackgroundImage?.value?.src}
+          >
+            <source src={fields.Video?.value?.src} type="video/webm" />
+          </video>
+        ) : (
+          <>
+            <ContentSdkImage
+              field={fields.BackgroundImage}
+              className="h-full w-full object-cover md:object-bottom"
+              priority
+            />
+          </>
+        )}
+      </div>
+
+      {children}
     </div>
   );
 };
 
-const HeroCardSection = (props: HeroCardProps & { layout: React.ReactNode }): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-  const { page } = useSitecore();
-  const { isEditing } = page.mode;
-  const showBg =
-    props.fields.BackgroundImage?.value?.src ||
-    props.fields.BackgroundImage?.value?.id ||
-    isEditing;
-
+export const Default = ({ params, fields, rendering }: HeroCardProps) => {
   return (
-    <section className={clsx('relative overflow-hidden', props.params.styles)} id={id || undefined}>
-      {showBg && (
-        <div className="absolute inset-0">
-          <ContentSdkImage
-            field={props.fields.BackgroundImage}
-            className="h-full w-full object-cover"
-          />
-          <div className="absolute inset-0 bg-black/50" aria-hidden />
-        </div>
-      )}
-      <Triangles styles={props.params.styles} />
-      <div className="text-background relative z-10 container py-16 md:py-24">{props.layout}</div>
-    </section>
-  );
-};
+    <HeroCardCommon params={params} fields={fields} rendering={rendering}>
+      {/* Content Container */}
+      <div className="z-10 flex h-[600px] w-full justify-center">
+        <div className="absolute top-1/2 left-1/2 w-md -translate-x-1/2 -translate-y-1/2 flex-wrap justify-center bg-white">
+          <div className="flex flex-col items-center px-12 pt-9 pb-12 text-center">
+            {/* <div className={clsx({ shim: screenLayer })}> */}
+            {/* Title */}
+            <h1 className="text-center text-3xl leading-[110%] font-bold capitalize md:text-[40px] md:leading-[130%] lg:text-left xl:text-[40px]">
+              <ContentSdkText field={fields.Title} />
+            </h1>
 
-export const Default = (props: HeroCardProps): JSX.Element => (
-  <HeroCardSection
-    {...props}
-    layout={
-      <div className="mx-auto max-w-2xl text-center">
-        <HeroCardBody {...props} />
-      </div>
-    }
-  />
-);
-
-export const TextRightCenter = (props: HeroCardProps): JSX.Element => (
-  <HeroCardSection
-    {...props}
-    layout={
-      <div className="grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-0">
-        <div className="hidden md:block" aria-hidden />
-        <div className="md:justify-self-end md:pr-6 lg:pr-12">
-          <div className="max-w-lg text-left">
-            <HeroCardBody {...props} />
-          </div>
-        </div>
-      </div>
-    }
-  />
-);
-
-export const TextLeftCenter = (props: HeroCardProps): JSX.Element => (
-  <HeroCardSection
-    {...props}
-    layout={
-      <div className="grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-0">
-        <div className="md:justify-self-start md:pl-6 lg:pl-12">
-          <div className="max-w-lg text-left">
-            <HeroCardBody {...props} />
-          </div>
-        </div>
-        <div className="hidden md:block" aria-hidden />
-      </div>
-    }
-  />
-);
-
-export const TextAndImage = (props: HeroCardProps): JSX.Element => {
-  const { page } = useSitecore();
-  const { isEditing } = page.mode;
-  const showSecondary =
-    props.fields.SecondaryImage?.value?.src || props.fields.SecondaryImage?.value?.id || isEditing;
-
-  return (
-    <HeroCardSection
-      {...props}
-      layout={
-        <div className="mx-auto grid max-w-5xl grid-cols-1 items-center gap-10 md:grid-cols-2 md:gap-12">
-          <HeroCardBody {...props} />
-          {showSecondary && (
-            <div className="relative aspect-4/3 w-full overflow-hidden rounded-2xl">
-              <ContentSdkImage
-                field={props.fields.SecondaryImage}
-                className="h-full w-full object-cover"
-              />
+            {/* Text */}
+            <div className="mt-7 text-xl md:text-2xl">
+              <ContentSdkRichText field={fields.Text} className="text-center! lg:text-left" />
             </div>
-          )}
+
+            {/* CTA Link */}
+            <div className="mt-6 flex justify-center lg:justify-start">
+              <Link field={fields.CtaLink} className="arrow-btn" />
+            </div>
+            {/* </div> */}
+          </div>
         </div>
-      }
-    />
+      </div>
+    </HeroCardCommon>
   );
 };
+
+export const TextLeft = ({ params, fields, rendering }: HeroCardProps) => (
+  <HeroCardCommon params={params} fields={fields} rendering={rendering}>
+    {/* Content Container */}
+    <div className="z-10 flex h-[600px] w-full justify-center">
+      <div className="absolute top-1/2 right-1/2 w-md -translate-y-1/2 flex-wrap justify-center bg-white">
+        <div className="flex flex-col px-12 pt-9 pb-12">
+          <h1 className="text-3xl leading-[110%] font-bold capitalize md:text-[40px] md:leading-[130%] lg:text-left xl:text-[40px]">
+            <ContentSdkText field={fields.Title} />
+          </h1>
+
+          <div className="mt-7 text-xl md:text-2xl">
+            <ContentSdkRichText field={fields.Text} className="lg:text-left" />
+          </div>
+
+          <div className="mt-6 flex justify-center lg:justify-start">
+            <Link field={fields.CtaLink} className="arrow-btn" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </HeroCardCommon>
+);
+
+export const TextRight = ({ params, fields, rendering }: HeroCardProps) => (
+  <HeroCardCommon params={params} fields={fields} rendering={rendering}>
+    {/* Content Container */}
+    <div className="z-10 flex h-[600px] w-full justify-center">
+      <div className="absolute top-1/2 left-1/2 w-md -translate-y-1/2 flex-wrap justify-center bg-white">
+        <div className="flex flex-col px-12 pt-9 pb-12">
+          <h1 className="text-3xl leading-[110%] font-bold capitalize md:text-[40px] md:leading-[130%] lg:text-left xl:text-[40px]">
+            <ContentSdkText field={fields.Title} />
+          </h1>
+
+          <div className="mt-7 text-xl md:text-2xl">
+            <ContentSdkRichText field={fields.Text} className="lg:text-left" />
+          </div>
+
+          <div className="mt-6 flex justify-center lg:justify-start">
+            <Link field={fields.CtaLink} className="arrow-btn" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </HeroCardCommon>
+);
+
+export const TextWithImage = ({ params, fields, rendering }: HeroCardProps) => (
+  <HeroCardCommon params={params} fields={fields} rendering={rendering}>
+    {/* Content Container */}
+    <div className="z-10 flex min-h-[600px] w-full items-center justify-center">
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white">
+        <div className="relative flex">
+          <div className="flex w-md flex-col px-12 pt-9 pb-12">
+            <h1 className="text-3xl leading-[110%] font-bold capitalize md:text-[40px] md:leading-[130%] lg:text-left xl:text-[40px]">
+              <ContentSdkText field={fields.Title} />
+            </h1>
+
+            <div className="mt-7 text-xl md:text-2xl">
+              <ContentSdkRichText field={fields.Text} className="lg:text-left" />
+            </div>
+
+            <div className="mt-6 flex justify-center lg:justify-start">
+              <Link field={fields.CtaLink} className="arrow-btn" />
+            </div>
+          </div>
+          <div className="w-md shrink-0" aria-hidden />
+          <div className="absolute top-0 right-0 h-full w-md overflow-hidden">
+            <ContentSdkImage field={fields.PromoImage} className="h-full w-full object-cover" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </HeroCardCommon>
+);

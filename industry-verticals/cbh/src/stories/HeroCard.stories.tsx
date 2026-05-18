@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import {
   Default,
-  TextAndImage,
-  TextLeftCenter,
-  TextRightCenter,
+  TextWithImage,
+  TextLeft,
+  TextRight,
   HeroCardProps,
 } from '../components/hero-card/HeroCard';
 import { CommonParams, CommonRendering } from './common/commonData';
@@ -24,7 +24,6 @@ import { HeroCardFlags } from '@/types/styleFlags';
 type StoryProps = HeroCardProps &
   BackgroundColorArgs & {
     hideTopTriangle: boolean;
-    hideBottomTriangle: boolean;
   };
 
 const meta = {
@@ -39,14 +38,9 @@ const meta = {
       control: 'boolean',
       name: 'Hide top triangle',
     },
-    hideBottomTriangle: {
-      control: 'boolean',
-      name: 'Hide bottom triangle',
-    },
   },
   args: {
     hideTopTriangle: false,
-    hideBottomTriangle: false,
     ...defaultBackgroundColorArgs,
   },
   tags: ['autodocs'],
@@ -67,18 +61,18 @@ const baseRendering = {
 
 const baseFields = {
   BackgroundImage: createImageField('placeholder'),
-  SecondaryImage: createImageField('placeholder'),
+  Video: createImageField('placeholder'),
+  PromoImage: createImageField('placeholder'),
   Title: createTextField('Growing with growers'),
   Text: createRichTextField(1, 'paragraphs'),
-  Link: createLinkField('Learn more'),
+  CtaLink: createLinkField('Learn more'),
 };
 
 const buildStyles = (args: StoryProps) =>
   clsx(
     baseParams.styles,
     args.BackgroundColor,
-    args.hideTopTriangle && HeroCardFlags.HideTopTriangle,
-    args.hideBottomTriangle && HeroCardFlags.HideBottomTriangle
+    args.hideTopTriangle && HeroCardFlags.HideTopTriangle
   );
 
 export const Centered: Story = {
@@ -93,7 +87,7 @@ export const PanelRightOfCenter: Story = {
   name: 'Text right of center',
   render: (args) => {
     const params = { ...baseParams, styles: buildStyles(args) };
-    return <TextRightCenter params={params} rendering={baseRendering} fields={baseFields} />;
+    return <TextRight params={params} rendering={baseRendering} fields={baseFields} />;
   },
 };
 
@@ -101,7 +95,7 @@ export const PanelLeftOfCenter: Story = {
   name: 'Text left of center',
   render: (args) => {
     const params = { ...baseParams, styles: buildStyles(args) };
-    return <TextLeftCenter params={params} rendering={baseRendering} fields={baseFields} />;
+    return <TextLeft params={params} rendering={baseRendering} fields={baseFields} />;
   },
 };
 
@@ -109,6 +103,6 @@ export const TextWithSecondaryImage: Story = {
   name: 'Text and image',
   render: (args) => {
     const params = { ...baseParams, styles: buildStyles(args) };
-    return <TextAndImage params={params} rendering={baseRendering} fields={baseFields} />;
+    return <TextWithImage params={params} rendering={baseRendering} fields={baseFields} />;
   },
 };
