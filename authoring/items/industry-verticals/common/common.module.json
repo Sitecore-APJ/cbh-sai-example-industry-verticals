@@ -296,8 +296,8 @@
         ]
       },
       {
-        "name": "sites-cbh",
-        "path": "/sitecore/content/industry-verticals/cbh",
+        "name": "sites-cbh-group",
+        "path": "/sitecore/content/industry-verticals/cbh-group",
         "rules": [
           {
             "path": "/Home",

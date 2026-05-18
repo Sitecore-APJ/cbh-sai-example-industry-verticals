@@ -1,12 +1,12 @@
 ---
-ID: "c7648374-a2aa-464e-8119-404a8eff020e"
+ID: "793d9f57-243a-438a-8480-fdbecfdbd208"
 Parent: "4ef0ace8-accf-4e4e-a219-3b96a5f856b9"
-Template: "a29d272e-9d48-453c-9e9d-b47585fa7f20"
-Path: "/sitecore/content/industry-verticals/cbh/Data"
+Template: "0a2847e6-9885-450b-b61e-f9e6528480ef"
+Path: "/sitecore/content/industry-verticals/cbh-group/Dictionary"
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 300
+  Value: 400
 Languages:
 - Language: en
   Versions:
@@ -21,7 +21,7 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bdf7e8f9-a0b1-4456-2789-012345678901"
+      Value: "cef8a9b0-c1d2-4567-3890-123456789012"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |

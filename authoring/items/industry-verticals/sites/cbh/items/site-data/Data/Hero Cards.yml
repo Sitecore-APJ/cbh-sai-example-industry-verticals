@@ -2,7 +2,7 @@
 ID: "b55e5f7f-e36c-4413-8163-a5dbb967ef7a"
 Parent: "c7648374-a2aa-464e-8119-404a8eff020e"
 Template: "3fe0370c-a04a-4a85-9ee4-2bed436b5205"
-Path: "/sitecore/content/industry-verticals/cbh/Data/Hero Cards"
+Path: "/sitecore/content/industry-verticals/cbh-group/Data/Hero Cards"
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder

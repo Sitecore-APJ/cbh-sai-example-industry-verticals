@@ -2,7 +2,7 @@
 ID: "27a3a7c8-f59c-4521-a760-213659037a43"
 Parent: "4ef0ace8-accf-4e4e-a219-3b96a5f856b9"
 Template: "4628b2c8-d026-4251-b85e-5987e09d56ef"
-Path: "/sitecore/content/industry-verticals/cbh/Settings"
+Path: "/sitecore/content/industry-verticals/cbh-group/Settings"
 SharedFields:
 - ID: "0129da3f-8c86-4591-ae32-6ec923413923"
   Hint: DictionaryDomain

@@ -2,7 +2,7 @@
 ID: "c1a00001-0000-4000-8000-000000000004"
 Parent: "2067819e-3d6e-4d15-b3fa-9577f6e13c0b"
 Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
-Path: "/sitecore/content/industry-verticals/cbh/Presentation/Headless Variants/HeroCard/TextAndImage"
+Path: "/sitecore/content/industry-verticals/cbh-group/Presentation/Headless Variants/HeroCard/TextAndImage"
 Languages:
 - Language: en
   Versions:

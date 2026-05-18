@@ -2,7 +2,7 @@
 ID: "e8a7f6d5-c4b3-4210-9a98-aaaaaaaaaaa1"
 Parent: "d61c183c-897d-43da-81ae-ca940255e862"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
-Path: "/sitecore/content/industry-verticals/cbh/Presentation/Styles/Hero Card/Hide Top Triangle"
+Path: "/sitecore/content/industry-verticals/cbh-group/Presentation/Styles/Hero Card/Hide Top Triangle"
 SharedFields:
 - ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
   Hint: Value

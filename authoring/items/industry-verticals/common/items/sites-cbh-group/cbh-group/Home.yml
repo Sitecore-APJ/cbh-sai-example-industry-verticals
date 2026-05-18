@@ -2,7 +2,7 @@
 ID: "14488080-298a-4740-b076-6393ef93d084"
 Parent: "4ef0ace8-accf-4e4e-a219-3b96a5f856b9"
 Template: "98e60957-0783-4a9a-85cc-77dad30e9711"
-Path: "/sitecore/content/industry-verticals/cbh/Home"
+Path: "/sitecore/content/industry-verticals/cbh-group/Home"
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters

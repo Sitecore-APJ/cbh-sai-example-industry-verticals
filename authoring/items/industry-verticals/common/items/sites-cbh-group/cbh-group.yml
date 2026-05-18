@@ -2,7 +2,7 @@
 ID: "4ef0ace8-accf-4e4e-a219-3b96a5f856b9"
 Parent: "07194d9b-c0d3-4b3a-9fd2-06c42800b5cf"
 Template: "e5b045ab-fadd-4e52-8168-4b4e5c489e36"
-Path: "/sitecore/content/industry-verticals/cbh"
+Path: "/sitecore/content/industry-verticals/cbh-group"
 SharedFields:
 - ID: "1230d2cb-4948-4d43-8a3b-b39978f6f1b3"
   Hint: Modules
