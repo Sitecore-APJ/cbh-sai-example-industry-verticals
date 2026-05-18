@@ -320,10 +320,6 @@
             "scope": "Ignored"
           },
           {
-            "path": "/Settings/Site Grouping",
-            "scope": "Ignored"
-          },
-          {
             "path": "/Settings",
             "scope": "Ignored"
           },
