@@ -1,0 +1,75 @@
+﻿---
+ID: "018b82f8-436e-4ce9-a30d-9cbe2bd802be"
+Parent: "2281e0cb-36a9-44d6-85d9-e91c0cc52700"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/cbh-group/Home/Articles/Community strength underpins Cyclone Seroja recovery"
+SharedFields:
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20210507T000000Z
+- ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
+  Hint: ogImage
+  Value: |
+    <Image src="https://cbhprd.azureedge.net/-/media/Project/CBH-Group/CBH-Group/CBH-Website/Images/Network/Sites/20210708_Network_Sites_damage-on-site-after-Seroja.jpg?rev=9947bdc2cd7043b1845cdb1eb52565f0&amp;w=1440&amp;hash=9DB0E535C0069C37F45A75A3312E75B0" width="1440" height="960" alt="Cyclone Seroja recovery" />
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://cbhprd.azureedge.net/-/media/Project/CBH-Group/CBH-Group/CBH-Website/Images/Network/Sites/20210708_Network_Sites_damage-on-site-after-Seroja.jpg?rev=9947bdc2cd7043b1845cdb1eb52565f0&amp;w=1440&amp;hash=9DB0E535C0069C37F45A75A3312E75B0" width="1440" height="960" alt="Cyclone Seroja recovery" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{26CE7EB6-5BE3-4E19-8558-2406C2BCA6D9}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "23e5f7f9-8481-44b2-9521-44bdaf3dcceb"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Nearly a month on, CBH employees and communities in the Mid West are still working through the aftermath of Tropical Cyclone Seroja, assessing the impacts, restoring our operations and helping growers and communities recover.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260514T065735Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Cyclone Seroja recovery
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rob.horton@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Nearly a month on, CBH employees and communities in the Mid West are still working through the aftermath of Tropical Cyclone Seroja, assessing the impacts, restoring our operations and helping growers and communities recover.</p><p>Read more on the <a href="https://www.cbh.com.au/news/2021/07/community-strengths-underpins-cyclone-seroja-recovery" rel="noopener noreferrer" target="_blank">CBH Group website</a>.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rob.horton@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: CBH teams and Mid West communities continue recovery after Tropical Cyclone Seroja—restoring operations and supporting growers.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Community strength supports recovery after Tropical Cyclone Seroja across CBH sites and the Mid West.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e08b8481-3ed6-4190-a92a-00e2ea7f8ce2"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: Community strength underpins Cyclone Seroja recovery
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rob.horton@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260514T065736Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Community strength underpins Cyclone Seroja recovery
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: CBH Group, Cyclone Seroja, community, Western Australia

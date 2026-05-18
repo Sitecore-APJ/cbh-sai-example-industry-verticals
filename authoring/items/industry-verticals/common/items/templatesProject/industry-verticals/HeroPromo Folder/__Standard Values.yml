@@ -1,0 +1,36 @@
+﻿---
+ID: "b1f4a134-7bfc-4b52-adcc-3dc22993e528"
+Parent: "260c94fc-065e-4903-bdcb-cfab7083bb68"
+Template: "260c94fc-065e-4903-bdcb-cfab7083bb68"
+Path: "/sitecore/templates/Project/industry-verticals/HeroPromo Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {1E2B823E-16B6-477F-8E95-3898D03DAE7B}
+    {260C94FC-065E-4903-BDCB-CFAB7083BB68}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "e31cd97b-2752-421e-bcd3-c6415a1779f4"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "57fa36d5-290a-4ca9-b571-2ddf526d2a13"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rob.horton@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260518T032415Z

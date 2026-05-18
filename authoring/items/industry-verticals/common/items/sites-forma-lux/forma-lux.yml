@@ -25,7 +25,7 @@ SharedFields:
     {1F35559F-2140-4774-8BC1-525BB722BAA2}
 - ID: "2b2fe9fd-78a6-40eb-b9f9-28409d8d3700"
   Hint: SitemapMediaItems
-  Value: "{58A4DB7F-B1E0-441C-8764-4A98EC742E66}"
+  Value: "{2AB1AC46-5C34-4A50-9710-A86723B4F5CD}"
 - ID: "33d9005e-1f71-415f-b107-53b965c3b037"
   Hint: SiteMediaLibrary
   Value: "{54F89E61-6008-4130-B6D9-3F4C5FDC447B}"
@@ -40,7 +40,7 @@ SharedFields:
   Value: "<image mediaid='60f2fa17-d633-4703-a65f-28ad007a26bb' />"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "7aca4703-0335-470e-8123-18ba940c42a5"
+  Value: "1d96994d-c060-4536-aeeb-7d1143ae41f9"
 - ID: "e2bf3c8d-a12e-45f4-98d6-a37f13bcf375"
   Hint: SiteTemplate
   Value: "{2867D289-8951-458A-AF19-CE93A67BB494}"
@@ -65,14 +65,14 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fe1cc577-9e8b-4dcc-81db-beacc64fe7ff"
+      Value: "26eba319-cb62-4750-90d2-5a5a79fa2cb1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Anonymous
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251205T125816Z
+      Value: 20260514T055046Z
 - Language: "es-ES"
   Versions:
   - Version: 1

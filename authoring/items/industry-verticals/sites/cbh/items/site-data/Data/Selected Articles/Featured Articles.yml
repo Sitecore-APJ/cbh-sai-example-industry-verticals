@@ -1,0 +1,45 @@
+﻿---
+ID: "dd8980d6-a4f4-4e1c-9f85-e9a146c20bb8"
+Parent: "5af87324-d2c2-4029-a7f5-1f5b9a42489c"
+Template: "30a718e4-b5b1-49df-aea6-ad761528b5c5"
+Path: "/sitecore/content/industry-verticals/cbh-group/Data/Selected Articles/Featured Articles"
+SharedFields:
+- ID: "a6a4a7d3-4017-4996-9264-27b1d3030273"
+  Hint: Articles
+  Value: |
+    {72A83A87-3D7F-4B04-A488-BFE95521FC48}
+    {018B82F8-436E-4CE9-A30D-9CBE2BD802BE}
+    {3691802F-3013-4DB7-9571-727053CA652B}
+    {470DAD7C-AB9C-46B8-861F-AB442F617D14}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "3ba3bc6c-68ca-420a-aa04-2389d1494cd6"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260515T045747Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rob.horton@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rob.horton@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b4bb0275-f0aa-40f8-8350-f38c92c24d07"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rob.horton@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260515T045813Z

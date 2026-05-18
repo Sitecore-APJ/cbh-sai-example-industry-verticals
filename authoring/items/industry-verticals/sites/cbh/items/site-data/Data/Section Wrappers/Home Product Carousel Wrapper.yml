@@ -1,0 +1,173 @@
+﻿---
+ID: "04b7472e-0f97-4a1f-9b09-23db1de6194a"
+Parent: "caed8ca3-0fc3-4257-aed7-e01089613d56"
+Template: "464a7993-10a8-4e15-a56e-3df58d050aa1"
+Path: "/sitecore/content/industry-verticals/cbh-group/Data/Section Wrappers/Home Product Carousel Wrapper"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17316dee-ddb8-43ec-9d7e-596c4f7662ad"
+      Hint: Title
+      Value: Browse The Range
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250924T121746Z
+    - ID: "3d343ddf-0de2-41e7-8bf5-fadeafd484c7"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="758AA6FD-205D-4AF1-A058-57C2A079968C" anchor="" target="" title="" linktype="internal" text="View All" url="/industry-verticals/forma-lux/Home/Products" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "385c3aa7-3f30-4d45-b657-f87fe4e6df1e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rob.horton@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260514T035036Z
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17316dee-ddb8-43ec-9d7e-596c4f7662ad"
+      Hint: Title
+      Value: Explorar la gama
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250925T131007Z
+    - ID: "3d343ddf-0de2-41e7-8bf5-fadeafd484c7"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="b86a1b6c-c131-42ce-afcf-d7fef4a543f5" anchor="" target="" title="" linktype="internal" text="Explorar la gama" url="/industry-verticals/forma-lux/Home/Products" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ba8f28a4-cfb2-4077-8282-4119b81ee318"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251127T103505Z
+  - Version: 2
+    Fields:
+    - ID: "17316dee-ddb8-43ec-9d7e-596c4f7662ad"
+      Hint: Title
+      Value: Explorar la gama
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250924T121746Z
+    - ID: "3d343ddf-0de2-41e7-8bf5-fadeafd484c7"
+      Hint: Link
+      Value: |
+        <link class="" id="758AA6FD-205D-4AF1-A058-57C2A079968C" querystring="" anchor="" target="" title="" linktype="internal" text="Ver todo" url="/industry-verticals/forma-lux/Home/Products" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "efb95d2d-f66c-4615-9106-ace1d2104bfd"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rob.horton@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260514T035036Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17316dee-ddb8-43ec-9d7e-596c4f7662ad"
+      Hint: Title
+      Value: Parcourir la gamme
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250924T121746Z
+    - ID: "3d343ddf-0de2-41e7-8bf5-fadeafd484c7"
+      Hint: Link
+      Value: |
+        <link class="" id="758AA6FD-205D-4AF1-A058-57C2A079968C" querystring="" anchor="" target="" title="" linktype="internal" text="Voir tout" url="/industry-verticals/forma-lux/Home/Products" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "66ec869b-da7b-4842-b765-be23813d6ca1"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rob.horton@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260514T035036Z
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17316dee-ddb8-43ec-9d7e-596c4f7662ad"
+      Hint: Title
+      Value: Explorez la gamme
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250925T131116Z
+    - ID: "3d343ddf-0de2-41e7-8bf5-fadeafd484c7"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="758AA6FD-205D-4AF1-A058-57C2A079968C" anchor="" target="" title="" linktype="internal" text="Tout afficher" url="/industry-verticals/forma-lux/Home/Products" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7f5f341c-820f-420a-8bfd-0333b46e6296"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rob.horton@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260514T035036Z

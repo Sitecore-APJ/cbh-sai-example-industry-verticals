@@ -1,0 +1,75 @@
+﻿---
+ID: "d8f2505c-6031-455c-8bb6-ffbbd77a9bb4"
+Parent: "2281e0cb-36a9-44d6-85d9-e91c0cc52700"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/cbh-group/Home/Articles/Borden upgrade to keep trucks moving"
+SharedFields:
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20230616T000000Z
+- ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
+  Hint: ogImage
+  Value: |
+    <Image src="https://cbhprd.azureedge.net/-/media/Project/CBH-Group/CBH-Group/CBH-Website/Images/Network/Sites/20230524-Borden-11.jpg?rev=1a27a7370e7c48e4a8f8a3f116a8f329&amp;w=1440&amp;hash=067AF1206D24B5F7AEDBE43EC9B98F5B" width="1440" height="960" alt="CBH Borden site" />
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://cbhprd.azureedge.net/-/media/Project/CBH-Group/CBH-Group/CBH-Website/Images/Network/Sites/20230524-Borden-11.jpg?rev=1a27a7370e7c48e4a8f8a3f116a8f329&amp;w=1440&amp;hash=067AF1206D24B5F7AEDBE43EC9B98F5B" width="1440" height="960" alt="CBH Borden site" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{962AB61A-19F7-411F-A87C-34B30A553CFE}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "7195ea9f-a38a-448b-a82b-1709bc3947f8"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: "Work has officially started at the Borden marshal-sample-weighbridge upgrade, one of this year's major site upgrades underway as part of Network Investment."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260514T065715Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Borden site upgrade
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rob.horton@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Work has officially started at the Borden marshal-sample-weighbridge upgrade, one of this year's major site upgrades underway as part of Network Investment.</p><p>Read more on the <a href="https://www.cbh.com.au/news/2023/06/borden-upgrade-to-keep-trucks-moving" rel="noopener noreferrer" target="_blank">CBH Group website</a>.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rob.horton@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: "Work has started at the Borden marshal-sample-weighbridge upgrade—one of this year's major Network Investment site upgrades."
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: "Borden marshal-sample-weighbridge upgrade begins as part of CBH Network Investment to keep trucks moving safely and efficiently."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "777293ed-ca3e-4bdd-a0b3-a1fd840df58a"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: Borden upgrade to keep trucks moving
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rob.horton@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260514T065716Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Borden upgrade to keep trucks moving
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: CBH Group, Borden, site upgrade, harvest

@@ -1,0 +1,31 @@
+﻿---
+ID: "942a278d-83ab-4def-a1b8-bbbf28855f95"
+Parent: "0e96f3db-54fc-42b7-924f-43d32468600b"
+Template: "260c94fc-065e-4903-bdcb-cfab7083bb68"
+Path: "/sitecore/content/industry-verticals/cbh-group/Data/HeroPromo"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260518T032843Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rob.horton@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rob.horton@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bdc75750-9176-4a46-ab2d-123366ea9e5a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rob.horton@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260518T032859Z

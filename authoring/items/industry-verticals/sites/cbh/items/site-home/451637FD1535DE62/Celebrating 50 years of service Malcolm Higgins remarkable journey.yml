@@ -1,0 +1,77 @@
+﻿---
+ID: "72a83a87-3d7f-4b04-a488-bfe95521fc48"
+Parent: "2281e0cb-36a9-44d6-85d9-e91c0cc52700"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/cbh-group/Home/Articles/Celebrating 50 years of service Malcolm Higgins remarkable journey"
+SharedFields:
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20241223T000000Z
+- ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
+  Hint: ogImage
+  Value: |
+    <Image src="https://cbhprd.azureedge.net/-/media/Project/CBH-Group/CBH-Group/CBH-Website/Images/News/CBH-Mal-50-years-WEB-17.jpg?rev=e1e328c4dff54806bd50e09d0e600d16&amp;w=1440&amp;hash=E93ECEB61A2C82B6EAB6A71E6565B145" width="1440" height="960" alt="Malcolm Higgins" />
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://cbhprd.azureedge.net/-/media/Project/CBH-Group/CBH-Group/CBH-Website/Images/News/CBH-Mal-50-years-WEB-17.jpg?rev=e1e328c4dff54806bd50e09d0e600d16&amp;w=1440&amp;hash=E93ECEB61A2C82B6EAB6A71E6565B145" width="1440" height="960" alt="Malcolm Higgins" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{B90A587C-3FF0-40AF-8D1C-1C60C6467871}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "dad539c4-d63d-4a2f-937d-d58c413d47e4"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: |
+        This year we are thrilled to celebrate an extraordinary milestone: Malcolm "Mal" Higgins completing an incredible 50 years of service at CBH. From humble beginnings in 1972 to becoming a beloved figure among colleagues, his journey is a testament to dedication, hard work, and the enduring value of teamwork.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260514T065549Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Malcolm Higgins 50 years
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rob.horton@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>This year we are thrilled to celebrate an extraordinary milestone: Malcolm "Mal" Higgins completing an incredible 50 years of service at CBH.</p><p>From humble beginnings in 1972 to becoming a beloved figure among colleagues, his journey is a testament to dedication, hard work, and the enduring value of teamwork.</p><p>Read the full story on the <a href="https://www.cbh.com.au/news/2024/12/celebrating-50-years-of-service-malcolm-higgins-remarkable-journey" rel="noopener noreferrer" target="_blank">CBH Group website</a>.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rob.horton@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: |
+        This year we celebrate Malcolm "Mal" Higgins completing 50 years of service at CBH—from 1972 to a beloved colleague and testament to teamwork.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Malcolm Higgins completes 50 years of service at CBH—a milestone in dedication and teamwork.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a232f617-51f9-496b-b8a0-dd156f6414a7"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Celebrating 50 years of service: Malcolm Higgins' remarkable journey"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rob.horton@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260514T065550Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "Celebrating 50 years of service: Malcolm Higgins' remarkable journey"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: CBH Group, Western Australia, grain, employees, milestone

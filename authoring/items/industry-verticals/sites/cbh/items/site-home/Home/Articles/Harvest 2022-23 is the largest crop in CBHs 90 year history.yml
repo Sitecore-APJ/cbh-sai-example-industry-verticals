@@ -1,0 +1,75 @@
+﻿---
+ID: "515a6d13-d2f8-425f-b64d-3a76311826eb"
+Parent: "2281e0cb-36a9-44d6-85d9-e91c0cc52700"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/cbh-group/Home/Articles/Harvest 2022-23 is the largest crop in CBHs 90 year history"
+SharedFields:
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20230109T000000Z
+- ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
+  Hint: ogImage
+  Value: |
+    <Image src="https://cbhprd.azureedge.net/-/media/Project/CBH-Group/CBH-Group/CBH-Website/Images/Harvest/Harvest-Report-Updates/Website-news-article-image---Week-9---9-January.png?rev=6dd1be07b7a54056bad0592d108b5644&amp;w=1440&amp;hash=6C06ACB0F8FCEBA3C85258CFD3DA10EF" width="1440" height="960" alt="Harvest report 9 January" />
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://cbhprd.azureedge.net/-/media/Project/CBH-Group/CBH-Group/CBH-Website/Images/Harvest/Harvest-Report-Updates/Website-news-article-image---Week-9---9-January.png?rev=6dd1be07b7a54056bad0592d108b5644&amp;w=1440&amp;hash=6C06ACB0F8FCEBA3C85258CFD3DA10EF" width="1440" height="960" alt="Harvest report 9 January" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{E0B93C26-4E98-4284-BCFB-D6AB181884FD}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "a948d37e-081a-4122-98bc-921112b6bf9a"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: "It's official - CBH has set a new receival record, taking more grain during the 2022/23 harvest than last year, the largest year on record in CBH's 90-year history."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260514T065725Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Largest crop in 90 years
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rob.horton@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>It's official - CBH has set a new receival record, taking more grain during the 2022/23 harvest than last year, the largest year on record in CBH's 90-year history.</p><p>Read more on the <a href="https://www.cbh.com.au/news/2023/01/harvest-2022-23-largest-crop-in-cbhs-90-year-history" rel="noopener noreferrer" target="_blank">CBH Group website</a>.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rob.horton@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: "CBH sets a new receival record in 2022/23—the largest crop in the co-operative's 90-year history."
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: "CBH's 2022/23 harvest sets a new receival record—the largest crop in the co-operative's 90-year history."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "10e7b89d-2a0d-40e9-a538-eb60969bca59"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Harvest 2022-23 is the largest crop in CBHs 90 year history"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rob.horton@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260514T065726Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "Harvest 2022-23 is the largest crop in CBHs 90 year history"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: CBH Group, harvest, record, grain, Western Australia
