@@ -301,38 +301,31 @@
         "rules": [
           {
             "path": "/Home",
-            "scope": "SingleItem",
-            "allowedPushOperations": "CreateOnly"
+            "scope": "Ignored"
           },
           {
             "path": "/Media",
-            "scope": "SingleItem",
-            "allowedPushOperations": "CreateAndUpdate"
+            "scope": "Ignored"
           },
           {
             "path": "/Data",
-            "scope": "SingleItem",
-            "allowedPushOperations": "CreateOnly"
+            "scope": "Ignored"
           },
           {
             "path": "/Dictionary",
-            "scope": "SingleItem",
-            "allowedPushOperations": "CreateOnly"
+            "scope": "Ignored"
           },
           {
             "path": "/Presentation",
-            "scope": "SingleItem",
-            "allowedPushOperations": "CreateOnly"
+            "scope": "Ignored"
           },
           {
             "path": "/Settings/Site Grouping",
-            "scope": "ItemAndDescendants",
-            "allowedPushOperations": "CreateOnly"
+            "scope": "Ignored"
           },
           {
             "path": "/Settings",
-            "scope": "ItemAndChildren",
-            "allowedPushOperations": "CreateAndUpdate"
+            "scope": "Ignored"
           },
           {
             "path": "*",
